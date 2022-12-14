@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NetConf2022">
+  <Items>
+    <LogicalFolder Name="連線" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="JAMESNB\SQL2022:JAMESNB\James">
+          <Created>2022-12-14T20:41:24.2614521+08:00</Created>
+          <Type>SQL</Type>
+          <Server>JAMESNB\SQL2022</Server>
+          <UserName />
+          <Authentication>Windows 驗證</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查詢" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="000_Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>000_Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_CreateTemporalTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>010_CreateTemporalTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="011_Modify_Temporal.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>011_Modify_Temporal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="012_Alter_Temporal.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>012_Alter_Temporal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="013_Drop_Temporal.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>013_Drop_Temporal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="020_Create_Ledger_Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>020_Create_Ledger_Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="021_Modify_Ledger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>021_Modify_Ledger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="022_Query_Ledger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>022_Query_Ledger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="025_Create_Ledger_Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>025_Create_Ledger_Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="026_Modify_Ledger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>026_Modify_Ledger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="030_Create_Temporal_Ledger_Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>030_Create_Temporal_Ledger_Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="031_Modify_Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>031_Modify_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="032_query.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>032_query.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="其他" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
