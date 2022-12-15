@@ -28,7 +28,11 @@ insert into Test25(ID,Value1,Value2)
 go
 
 
-
+select *
+   ,[ledger_start_transaction_id]
+   ,[ledger_start_sequence_number]
+from Test25
+go
 -- ¬d¸ß Ledger View
 SELECT * 
 FROM [dbo].[Test25_Ledger]

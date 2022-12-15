@@ -11,6 +11,6 @@ DROP TABLE [dbo].[Test10]
 GO
 
 -- §R°£ [Test10_Temporal]
-IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Test10]') AND type in (N'U'))
-DROP TABLE [dbo].[Test10_Temporal]
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Test10_History]') AND type in (N'U'))
+DROP TABLE [dbo].[Test10_History]
 GO

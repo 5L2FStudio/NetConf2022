@@ -26,74 +26,74 @@
           <FullPath>000_Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="010_CreateTemporalTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>010_CreateTemporalTable.sql</FullPath>
         </FileNode>
         <FileNode Name="011_Modify_Temporal.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>011_Modify_Temporal.sql</FullPath>
         </FileNode>
         <FileNode Name="012_Alter_Temporal.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>012_Alter_Temporal.sql</FullPath>
         </FileNode>
         <FileNode Name="013_Drop_Temporal.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>013_Drop_Temporal.sql</FullPath>
         </FileNode>
         <FileNode Name="020_Create_Ledger_Table.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>020_Create_Ledger_Table.sql</FullPath>
         </FileNode>
         <FileNode Name="021_Modify_Ledger.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>021_Modify_Ledger.sql</FullPath>
         </FileNode>
         <FileNode Name="022_Query_Ledger.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>022_Query_Ledger.sql</FullPath>
         </FileNode>
         <FileNode Name="025_Create_Ledger_Table.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>025_Create_Ledger_Table.sql</FullPath>
         </FileNode>
         <FileNode Name="026_Modify_Ledger.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>026_Modify_Ledger.sql</FullPath>
         </FileNode>
         <FileNode Name="030_Create_Temporal_Ledger_Table.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>030_Create_Temporal_Ledger_Table.sql</FullPath>
         </FileNode>
         <FileNode Name="031_Modify_Data.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>031_Modify_Data.sql</FullPath>
         </FileNode>
         <FileNode Name="032_query.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JAMESNB\SQL2022:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JAMESNB\SQL2022</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>032_query.sql</FullPath>
         </FileNode>

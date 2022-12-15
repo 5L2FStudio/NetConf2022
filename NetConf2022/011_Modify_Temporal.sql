@@ -14,10 +14,12 @@ go
 delete Test10 where ID = 3
 go
 
-
-select * from Test10
+--
+SELECT *,StartTime FROM Test10
 go
 
-select * from [dbo].[Test10_History]
+SELECT * FROM [dbo].[Test10_History]
 go
 
+SELECT * FROM Test10
+FOR SYSTEM_TIME AS OF '2022-12-15 02:24:27'

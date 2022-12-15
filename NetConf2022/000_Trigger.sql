@@ -2,7 +2,7 @@
 CREATE TABLE Test0
 	(ID int Primary key  
 	,Value1 nvarchar(10)
-	,Value2 nvarchar(20)
+	,Value2 nvarchar(30)
 	,StartTime	datetime DEFAULT GETDATE()
 	,EndTime	datetime)
 
@@ -10,11 +10,12 @@ CREATE TABLE Test0
 CREATE TABLE Test0_History
 	(ID int   
 	,Value1 nvarchar(10)
-	,Value2 nvarchar(20)
+	,Value2 nvarchar(30)
 	,StartTime	datetime
 	,EndTime	datetime)
 GO
 
+-- 建立 Trigger
 CREATE TRIGGER Trig_Test ON Test0
 AFTER UPDATE,DELETE
 AS
@@ -26,6 +27,7 @@ BEGIN
 END
 GO
 
+-- 異動資料
 insert into Test0(ID,Value1,Value2)
 	values (1,'A','A'),(2,'B','B'),(3,'C','C')
 go
@@ -42,18 +44,14 @@ go
 delete Test0 where ID = 3
 go
 
-
+-- 查詢結果
 select * from Test0
 go
 
 select * from [dbo].[Test0_History]
 go
 
-
-alter table Test0 alter column Value2 nvarchar(30)
-
-alter table Test0_History alter column Value2 nvarchar(30)
-
+-- 再異動一次
 update Test0 set Value2 = Value1 + '_'+ Format( GETDATE(), 'yyyy/MM/dd HH:mm:ss', 'en-US' ) where ID = 2
 go
 

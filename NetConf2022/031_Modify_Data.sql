@@ -20,3 +20,9 @@ go
 
 select * from [dbo].[Test30_History]
 go
+
+select * from [dbo].[Test30_Ledger]
+go
+
+SELECT * FROM Test30
+FOR SYSTEM_TIME AS OF '2022-12-15 03:04:09'
