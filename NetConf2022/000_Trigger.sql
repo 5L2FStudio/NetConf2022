@@ -1,4 +1,4 @@
--- ´ú¸Õ¸ê®Æªí
+-- æ¸¬è©¦è³‡æ–™è¡¨
 CREATE TABLE Test0
 	(ID int Primary key  
 	,Value1 nvarchar(10)
@@ -15,7 +15,7 @@ CREATE TABLE Test0_History
 	,EndTime	datetime)
 GO
 
--- «Ø¥ß Trigger
+-- å»ºç«‹ Trigger
 CREATE TRIGGER Trig_Test ON Test0
 AFTER UPDATE,DELETE
 AS
@@ -27,7 +27,7 @@ BEGIN
 END
 GO
 
--- ²§°Ê¸ê®Æ
+-- ç•°å‹•è³‡æ–™
 insert into Test0(ID,Value1,Value2)
 	values (1,'A','A'),(2,'B','B'),(3,'C','C')
 go
@@ -44,14 +44,14 @@ go
 delete Test0 where ID = 3
 go
 
--- ¬d¸ßµ²ªG
+-- æŸ¥è©¢çµæœ
 select * from Test0
 go
 
 select * from [dbo].[Test0_History]
 go
 
--- ¦A²§°Ê¤@¦¸
+-- å†ç•°å‹•ä¸€æ¬¡
 update Test0 set Value2 = Value1 + '_'+ Format( GETDATE(), 'yyyy/MM/dd HH:mm:ss', 'en-US' ) where ID = 2
 go
 

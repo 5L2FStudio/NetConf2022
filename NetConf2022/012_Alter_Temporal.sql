@@ -1,4 +1,4 @@
--- §мЁъёк®Ж
+-- жЉ“еЏ–иі‡ж–™
 select 
 	[ID], [Value1], [Value2], [StartTime], [EndTime]
 	from Test10
@@ -8,11 +8,11 @@ select
 	from Test10_History
 GO
 
--- ­Ч§пёк®ЖЄн , јWҐ[Дж¦м
+-- дї®ж”№иі‡ж–™иЎЁ , еўћеЉ ж¬„дЅЌ
 alter table Test10 add Value3 money 
 GO
 
--- §мЁъёк®Ж
+-- жЉ“еЏ–иі‡ж–™
 select 
 	*
 	from Test10

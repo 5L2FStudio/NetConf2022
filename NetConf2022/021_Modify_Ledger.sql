@@ -1,4 +1,4 @@
--- ¥[¤J¸ê®Æ
+-- åŠ å…¥è³‡æ–™
 insert into Test20(ID,Value1,Value2)
 	values (1,'A','A'),(2,'B','B'),(3,'C','C')
 go
@@ -6,18 +6,18 @@ go
 waitfor delay '00:00:10'
 go
 
--- ­×§ï¸ê®Æ
+-- ä¿®æ”¹è³‡æ–™
 update Test20 set Value2 = Value1 + '_'+ FORMAT( GETDATE(), 'yyyy/MM/dd HH:mm:ss', 'en-US' ) where ID = 2
 go
 
 waitfor delay '00:00:10'
 go
 
--- §R°£¸ê®Æ
+-- åˆªé™¤è³‡æ–™
 delete Test20 where ID = 3
 go
 
--- Åª¨ú¸ê®Æªí
+-- è®€å–è³‡æ–™è¡¨
 select * from Test20
 go
 
@@ -30,15 +30,15 @@ select *
 from Test20
 go
 
--- Åª¨ú¾ú¥v¸ê®Æªí
+-- è®€å–æ­·å²è³‡æ–™è¡¨
 select * from [dbo].[Test20_History]
 go
 
--- ¦b²§°Ê¤@¦¸
+-- åœ¨ç•°å‹•ä¸€æ¬¡
 update Test20 set Value2 = Value1 + '_'+ FORMAT( GETDATE(), 'yyyy/MM/dd HH:mm:ss', 'en-US' ) where ID = 2
 go
 
--- Åª¨ú¸ê®Æªí
+-- è®€å–è³‡æ–™è¡¨
 select *
    ,[ledger_start_transaction_id]
    ,[ledger_end_transaction_id]
@@ -47,6 +47,6 @@ select *
 from Test20
 go
 
--- Åª¨ú¾ú¥v¸ê®Æªí
+-- è®€å–æ­·å²è³‡æ–™è¡¨
 select * from [dbo].[Test20_History]
 go

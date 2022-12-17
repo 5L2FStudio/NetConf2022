@@ -1,10 +1,10 @@
--- ¦P®É­İ¨ã®ÉºAªí©MÁ`±bªíªº¯S©Ê
+-- åŒæ™‚å…¼å…·æ™‚æ…‹è¡¨å’Œç¸½å¸³è¡¨çš„ç‰¹æ€§
 CREATE TABLE dbo.Test30
 	(ID int Primary key  
 	,Value1 nvarchar(10)
 	,Value2 nvarchar(30)
-	,StartTime	datetime2 GENERATED ALWAYS AS ROW START NOT NULL	--¶}©l®É¶¡
-	,EndTime	datetime2 GENERATED ALWAYS AS ROW END	NOT NULL	--µ²§ô®É¶¡
+	,StartTime	datetime2 GENERATED ALWAYS AS ROW START NOT NULL	--é–‹å§‹æ™‚é–“
+	,EndTime	datetime2 GENERATED ALWAYS AS ROW END	NOT NULL	--çµæŸæ™‚é–“
 	,PERIOD FOR SYSTEM_TIME (StartTime,EndTime)) 
 	WITH(SYSTEM_VERSIONING = ON( HISTORY_TABLE = [dbo].[Test30_History] , DATA_CONSISTENCY_CHECK = ON )
 	, LEDGER = ON

@@ -1,17 +1,17 @@
--- ¥[¤J¸ê®Æ
+-- åŠ å…¥è³‡æ–™
 insert into Test25(ID,Value1,Value2)
 	values (1,'A','A'),(2,'B','B'),(3,'C','C')
 go
 
--- ­×§ï¸ê®Æ
+-- ä¿®æ”¹è³‡æ–™
 update Test25 set Value2 = Value1 + '_'+ FORMAT( GETDATE(), 'yyyy/MM/dd HH:mm:ss', 'en-US' ) where ID = 2
 go
 
--- §R°£¸ê®Æ
+-- åˆªé™¤è³‡æ–™
 delete Test25 where ID = 3
 go
 
--- Åª¨ú¸ê®Æªí
+-- è®€å–è³‡æ–™è¡¨
 select * from Test25
 go
 
@@ -33,6 +33,6 @@ select *
    ,[ledger_start_sequence_number]
 from Test25
 go
--- ¬d¸ß Ledger View
+-- æŸ¥è©¢ Ledger View
 SELECT * 
 FROM [dbo].[Test25_Ledger]

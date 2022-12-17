@@ -2,12 +2,12 @@ CREATE TABLE dbo.Test10
 	(ID int Primary key  
 	,Value1 nvarchar(10)
 	,Value2 nvarchar(30)
-	,StartTime	datetime2 GENERATED ALWAYS AS ROW START HIDDEN NOT NULL	--¶}©l®Ι¶΅
-	,EndTime	datetime2 GENERATED ALWAYS AS ROW END	HIDDEN NOT NULL	--µ²§τ®Ι¶΅
+	,StartTime	datetime2 GENERATED ALWAYS AS ROW START HIDDEN NOT NULL	--ι–‹ε§‹ζ™‚ι–“
+	,EndTime	datetime2 GENERATED ALWAYS AS ROW END	HIDDEN NOT NULL	--ηµζζ™‚ι–“
 	,PERIOD FOR SYSTEM_TIME (StartTime,EndTime)) 
 	WITH(SYSTEM_VERSIONING = ON( HISTORY_TABLE = [dbo].[Test10_History] , DATA_CONSISTENCY_CHECK = ON )
 	); 
 
--- ­n¦³ PK
--- ®Ι¶΅Δζ¦μ¥i¥H¥[¤J HIDDEN ¤£Εγ¥ά
--- ¥i¥H«ό©wΉοΐ³ªΊ Temporal Tablle ¦WΊΩ
+-- θ¦ζ‰ PK
+-- ζ™‚ι–“ζ¬„δ½ε―δ»¥ε ε…¥ HIDDEN δΈι΅―η¤Ί
+-- ε―δ»¥ζ‡ε®ε°ζ‡‰η„ Temporal Tablle εη¨±

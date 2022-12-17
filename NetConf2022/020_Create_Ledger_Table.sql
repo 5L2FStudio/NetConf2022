@@ -1,4 +1,4 @@
--- «Ø¥ß¥i§ó·sªºÁ`±b¸ê®Æªí
+-- å»ºç«‹å¯æ›´æ–°çš„ç¸½å¸³è³‡æ–™è¡¨
 CREATE TABLE dbo.Test20
 	(ID int Primary key  
 	,Value1 nvarchar(10)
